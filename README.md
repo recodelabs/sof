@@ -1,5 +1,13 @@
 # octofhir/sof
 
+> **This Recode Labs fork of octofhir/sof is archived.** The engine now lives in
+> [fhir-pipes](https://github.com/ohs-foundation/fhir-pipes-rs) as `crates/sof` and
+> `crates/sof-lint` (`fhir-pipes-sof`, `fhir-pipes-sof-lint`), on arrow 59 and with the
+> PostgreSQL runner and package lint as optional features. The command-line tool is
+> `fhir-pipes views` (`run`, `sql` for `generate`, `validate`, `lint`, `test`). Upstream is
+> [octofhir/sof](https://github.com/octofhir/sof).
+
+
 A Rust toolkit for [SQL on FHIR v2](https://build.fhir.org/ig/FHIR/sql-on-fhir-v2/):
 parse `ViewDefinition` resources and turn FHIR data into flat tables — with no
 database required, or by generating PostgreSQL.
